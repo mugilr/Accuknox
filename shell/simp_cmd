@@ -25,3 +25,18 @@ echo "Hey, this the argv passed $1"
 read -p "Type something:" arg_var
 echo "Hey, this the typed on passed $arg_var"
 
+#arithmatic operations
+#expr is used for this kinda operations
+
+ expr 9 + 9
+ expr 9 - 9
+ expr 9 / 9
+ expr 9 \* 9
+#also similar like var we yuse
+a=9
+
+b=9
+c=expr $a + $b
+echo "$c"
+
+
