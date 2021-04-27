@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#export PATH = $PATH:[file directory]
+#chenge the file permission using chmod +x [file]
+
+#cmd
+pwd
+
+#variable
+uname=Mugil
+echo "Hi $uname, Finally you here $uname"
