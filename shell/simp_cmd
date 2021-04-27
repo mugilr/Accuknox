@@ -20,3 +20,8 @@ echo "$uname, your in $pdr ${pdr}_simp_cmd directory"
 #we use $0(0 is assigned to running shell script file),
 #$1,$2,... for arguments passed to the scripts
 echo "Hey, this the argv passed $1"
+
+#read input 
+read -p "Type something:" arg_var
+echo "Hey, this the typed on passed $arg_var"
+
