@@ -9,3 +9,9 @@ pwd
 #variable
 uname=Mugil
 echo "Hi $uname, Finally you here $uname"
+
+#store and the cmd output
+pdr=$(pwd)
+#we can use also {} for variable output mostly 
+#its used to attach extra details 
+echo "$uname, your in $pdr ${pdr}_simp_cmd directory"
