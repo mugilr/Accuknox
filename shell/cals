@@ -1,9 +1,25 @@
-#!/bin/bash
+#!/bin/bash  
+#above is the shebang
 #
 #its a simple cals perform add
 
 #sum=$(( $1 + $2 ))
 #echo "sum of $1 and $2 is equal to $sum "
+
+function table() {
+	for n in {1..10}
+	do
+		echo "$1 * $n = $(( $1 * $n ))"
+	done
+	while [ $n -le "20" ]
+	do
+		sleep 1 #used to wait for 1sec to execute the next
+		echo "$1 * $n = $(( $1 * $n ))"
+		$(( n++ ))
+	done
+		
+	exit 1
+}
 
 if [ $2 = "+" ]
 then
@@ -18,11 +34,7 @@ then
 	fi
 elif [ $2 = "m" ]
 then
-	for n in {1..10}
-	do
-		echo "$1 * $n = $(( $1 * $n ))"
-	done
-	exit
+	table $1
 else
 	echo "Invalid"
 	exit #terminate the script
