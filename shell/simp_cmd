@@ -14,16 +14,16 @@ echo "Hi $uname, Finally you here $uname"
 pdr=$(pwd)
 #we can use also {} for variable output mostly 
 #its used to attach extra details 
-echo "$uname, your in $pdr ${pdr}_simp_cmd directory"
+#echo "$uname, your in $pdr ${pdr}_simp_cmd directory"
 
 #cmd argv
 #we use $0(0 is assigned to running shell script file),
 #$1,$2,... for arguments passed to the scripts
-echo "Hey, this the argv passed $1"
+#echo "Hey, this the argv passed $1"
 
 #read input 
-read -p "Type something:" arg_var
-echo "Hey, this the typed on passed $arg_var"
+#read -p "Type something:" arg_var
+#echo "Hey, this the typed on passed $arg_var"
 
 #arithmatic operations
 #expr is used for this kinda operations
@@ -36,7 +36,8 @@ echo "Hey, this the typed on passed $arg_var"
 a=9
 
 b=9
-c=expr $a + $b
-echo "$c"
+#c= $(( a + b))
+#echo "$c"
+echo "procuct = $(( a * b ))"
 
 
