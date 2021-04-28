@@ -1,0 +1,4 @@
+#its a simple cals perform add
+
+sum=$(( $1 + $2 ))
+echo "sum of $1 and $2 is equal to $sum "
