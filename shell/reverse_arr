@@ -1,0 +1,36 @@
+#!/bin/bash
+
+function reverse(){
+	j=$(($s - 1))
+	for ((i=0; $i<$j; i++))
+	do
+        	temp=${a[$i]}
+        	a[$i]=${a[$j]}
+        	a[$j]=$temp
+        	j=$(($j - 1))
+	done
+	return 1
+}
+
+function print_arr(){
+	for ((i=0; $i<$s; i++))
+	do
+        	echo -n ${a[$i]}
+	done
+	echo " "
+}
+
+
+
+read -p "size of arr?: " s
+echo "elements of arr?"
+for ((i=0; $i<$s; i++))
+do
+            read a[$i]
+done
+echo -n "before reverse : "
+print_arr
+reverse
+echo -n "after reverse : "
+print_arr
+exit 
