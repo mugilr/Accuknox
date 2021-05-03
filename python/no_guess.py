@@ -14,7 +14,7 @@ def start_game():
     # Where the show_score function USED to be
     att = 0
     show_score()
-    while wanna_play.lower() == "y":
+    while (wanna_play.lower() == "y"):
         try:
             guess = input("Guess a number between 1 and 10 ")
             if int(guess) < 1 or int(guess) > 10:
@@ -28,7 +28,7 @@ def start_game():
                 att = 0
                 show_score()
                 random_number = int(random.randint(1, 10))
-                if play_again.lower() == "no":
+                if play_again.lower() == "n":
                     print("bye")
                     break
             elif int(guess) > random_number:
