@@ -52,7 +52,7 @@ int main()
  
     push(&root, 1);
     push(&root, 2);
-    push(&root, 3);
+   // push(&root, 3);
  
     printf("%d popped\n", pop(&root));
     printf("%d popped\n", pop(&root)); 
