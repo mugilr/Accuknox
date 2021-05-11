@@ -1,0 +1,7 @@
+https://duo.com/labs/tech-notes/writing-an-xdp-network-filter-with-ebpf
+https://docs.cilium.io/en/latest/bpf/
+https://github.com/nyrahul/ebpf-guide
+https://github.com/zoidbergwill/awesome-ebpf#tutorials
+https://github.com/iovisor/bcc/blob/master/INSTALL.md
+https://github.com/iovisor/bcc/blob/master/docs/reference_guide.md
+
