@@ -4,22 +4,22 @@
 #chenge the file permission using chmod +x [file]
 
 #cmd
-pwd
+#pwd
 
 #variable
 uname=Mugil
-echo "Hi $uname, Finally you here $uname"
+#echo "Hi $uname, Finally you here $uname"
 
 #store and the cmd output
 pdr=$(pwd)
 #we can use also {} for variable output mostly 
 #its used to attach extra details 
-#echo "$uname, your in $pdr ${pdr}_simp_cmd directory"
+#echo "$uname, your in ${pdr}_simp_cmd directory"
 
 #cmd argv
 #we use $0(0 is assigned to running shell script file),
 #$1,$2,... for arguments passed to the scripts
-#echo "Hey, this the argv passed $1"
+#echo "Hey, this the argv passed $2"
 
 #read input 
 #read -p "Type something:" arg_var
@@ -28,16 +28,16 @@ pdr=$(pwd)
 #arithmatic operations
 #expr is used for this kinda operations
 
- expr 9 + 9
- expr 9 - 9
- expr 9 / 9
- expr 9 \* 9
+expr 9 + 9
+expr 9 - 9
+expr 9 / 9
+expr 9 \* 9
 #also similar like var we yuse
 a=9
 
 b=9
-#c= $(( a + b))
-#echo "$c"
+c= $(( a + b))
+echo "$c"
 echo "procuct = $(( a * b ))"
 
 
