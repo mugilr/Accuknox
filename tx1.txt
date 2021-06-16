@@ -1,0 +1,31 @@
+  In the below output
+      tell	you	"Have	a	nice
+day".
+
+a
+5
+
+whatis [cmd]
+
+
+cfdisk - reate, delete, and modify partitions on a disk device.
+fdisk - creating and manipulating disk partition table.
+df
+free 
+top - show the processes
+	-n 5
+	-u [user]
+	z,c,k,shift+p
+kill 
+ps
+pstree
+tree
+w
+uptime
+watch - used to execute a cmd in intervel
+	-n free -h
+	-d
+wc - it return the count of lines, words, character
+which
+dmesg
+

@@ -1,0 +1,6 @@
+cheat sheet
+create acc
+billing and create projets
+create billing non-admin user
+use terminal
+data flow
