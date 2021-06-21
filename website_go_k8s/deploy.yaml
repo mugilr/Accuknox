@@ -20,7 +20,7 @@ spec:
                 spec:
                         containers:
                                 - name: time-pod
-                                  image: //s//
+                                  image: mugil23/time
                                   ports:
                                           - containerPort: 8080
 

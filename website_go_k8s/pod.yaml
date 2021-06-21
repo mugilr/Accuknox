@@ -8,6 +8,6 @@ metadata:
 spec:
         containers:
                 - name: time
-                  image: //s//
+                  image: mugil23/time
                   ports:
                           - containerPort: 8080
