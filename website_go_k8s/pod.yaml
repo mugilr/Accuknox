@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+        name: time-pod
+        labels:
+                name: time-pod
+                lang: go
+spec:
+        containers:
+                - name: time
+                  image: //s//
+                  ports:
+                          - containerPort: 8080

@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+        name: time-deploy
+        labels:
+                name: time-deploy
+                lang: go
+spec:
+        replicas: 2
+        selector:
+                matchLabels:
+                        name: time-pod
+                        lang: go
+        template:
+                metadata:
+                        name: time-pod
+                        labels:
+                                name: time-pod
+                                lang: go
+                spec:
+                        containers:
+                                - name: time-pod
+                                  image: //s//
+                                  ports:
+                                          - containerPort: 8080
+
