@@ -6,11 +6,10 @@ metadata:
                 name: time-service
                 lang: go
 spec:
-        type: NodePort
+        type: LoadBalancer
         port:
                 - port: 8080
                   targetPort: 8080
-                  nodePort: 30004
         selector:
                 name: time-pod
                 lang: go
